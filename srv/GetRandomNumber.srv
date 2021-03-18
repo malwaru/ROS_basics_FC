@@ -1,0 +1,4 @@
+int32 start
+int32 stop
+---
+int32 result

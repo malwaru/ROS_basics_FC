@@ -1,0 +1,23 @@
+<launch>
+
+<group ns="turtlesim1">
+    <param name="lin_vel" value="2"/>
+    <param name="ang_vel" value="2"/>
+    
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+    <node pkg="foundation_cource" name="teleop_w_launch_params" type="teleop_launch_getparams.py"/>
+</group>
+
+<group ns="turtlesim2">
+    <param name="lin_vel" value="2"/>
+    <param name="ang_vel" value="-2"/>
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+    <node pkg="foundation_cource" name="teleop_w_launch_params" type="teleop_launch_getparams.py"/>
+
+</group>
+
+
+
+
+
+</launch>

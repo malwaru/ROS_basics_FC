@@ -1,0 +1,14 @@
+<launch>
+
+
+    <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+    <node pkg="turtlesim" name= "sim2" type="turtlesim_node"/>
+    <node pkg="foundation_cource" name="teleop_w_launch" type="teleop_launch.py"/>
+    
+
+
+
+
+
+
+</launch>

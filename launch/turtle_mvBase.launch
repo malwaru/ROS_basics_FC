@@ -1,0 +1,6 @@
+<launch>
+<node pkg="turtlesim" name="turtle1" type="turtlesim_node" output="screen" />
+<node pkg="foundation_cource" name="server" type="turtle_mvBase_server.py" output="screen" />
+<node pkg="foundation_cource" name="client" type="turtle_mvBase_client.py" output="screen" launch-prefix="gnome-terminal --command" />
+
+</launch>

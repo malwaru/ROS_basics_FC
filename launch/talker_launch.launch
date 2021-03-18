@@ -1,0 +1,8 @@
+<launch>
+<param name="username" value="General Kenobi"/>
+<node pkg="foundation_cource" name="talker" type="talker.py"/>
+<node pkg="foundation_cource" name="listen" type="listener.py"/>
+
+
+
+</launch>
